@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&family=Montserrat&display=swap');
+
+body,
+p,
+h3 {
+  margin: 0;
+}
+
+/* scrollbar */
+body {
+  background-color: #fff;
+}
+
+body::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #F7F7F7;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #B2B2B2;
+}
+
+/* Nav styles */
+nav {
+  height: 10%;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  height: 10vh;
+  align-items: center;
+  padding-left: 0;
+  background-color: #BFCCB5;
+}
+
+li {
+  margin: 0 7%;
+  list-style: none;
+}
+
+a {
+  font-family: 'Comfortaa', cursive;
+  text-decoration: none;
+  color: #454545;
+  font-size: 125%;
+  font-weight: 200;
+}
+
+a:hover {
+  font-size: 127%;
+  color: #000;
+  font-weight: 300;
+}
+
+.right-item {
+  display: flex;
+  position: relative;
+  left: 65%;
+  width: 10vw;
+  justify-content: space-evenly;
+}
+
+.right-item li {
+  width: 10vw;
+  margin: auto 0;
+}
+
+.right-item a {
+  font-family: 'Comfortaa', cursive;
+  text-decoration: none;
+  font-weight: 200;
+  margin: auto 1%;
+  color: #454545;
+  font-size: 100%;
+  cursor: pointer;
+}
+
+.right-item a:hover {
+  font-weight: 300;
+  color: #000;
+}
+
+/* home page style */
+
+.top-container {
+  margin: 5% auto;
+}
+
+.intro-line {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 300%;
+}
+
+.intro {
+  margin: 3% 7% 2%;
+  text-align: justify;
+  font-family: 'Comfortaa', cursive;
+  font-size: 110%;
+  line-height: 2.5;
+  font-weight: 400;
+}
+
+.mid-container {
+  margin: 0 auto 5%;
+}
+
+.mid-container img {
+  width: 15vw;
+  margin: auto 7%;
+  float: left;
+  position: relative;
+  top: 20%;
+}
+
+.mid-container p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 110%;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 2.5;
+  margin: auto 7%;
+}
+
+/* button styling */
+
+.mid-container button {
+  margin: 5% 7%;
+  padding: 1% 2%;
+  font-family: 'Comfortaa', cursive;
+  font-size: 110%;
+  font-weight: 400;
+  border: 1px solid #454545;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #454545;
+  cursor: pointer;
+  position: relative;
+  left: 11%;
+}
+
+.mid-container button:hover {
+  background-color: #454545;
+  color: #fff;
+}
+
+.mid-container button:active {
+  background-color: #454545;
+  color: #fff;
+}
+
+/* Styling bottom container  */
+
+.bottom-container {
+  font-family: 'Comfortaa', cursive;
+  font-size: 100%;
+  font-weight: 300;
+}
+
+.bottom-container ul {
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.bottom-container a:hover {
+  font-weight: 400;
+  color: #000;
+  cursor: pointer;
+}
+
+/* form style */
+
+form {
+  margin: 5% auto 6.61%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 200%;
+  font-weight: 400;
+  margin: 0 0 2% 0;
+}
+
+label {
+  font-family: 'Comfortaa', cursive;
+  font-size: 120%;
+  font-weight: 400;
+  margin: 1% auto;
+}
+
+textarea {
+  width: 80vw;
+  height: 80vh;
+  font-family: 'Comfortaa', cursive;
+  font-size: 120%;
+  font-weight: 400;
+  padding: 0.5% 2.5%;
+  line-height: 1.5;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+textarea::-webkit-scrollbar-track {
+  background-color: #F7F7F7;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #B2B2B2;
+}
+
+#username {
+  margin: 1% auto 0;
+  width: 20vw;
+  height: 10vh;
+  border: 1px solid #000;
+  border-radius: 5px 5px 0 0;
+  padding: 0 1%;
+}
+
+#password {
+  margin: 0 auto 2%;
+  width: 20vw;
+  height: 10vh;
+  border: 1px solid #000;
+  border-radius: 0 0 5px 5px;
+  padding: 0 1%;
+}
+
+#submit {
+  margin: 1% 7%;
+  padding: 1% 2%;
+  font-family: 'Comfortaa', cursive;
+  font-size: 110%;
+  font-weight: 400;
+  border: 1px solid #454545;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #454545;
+  cursor: pointer;
+  width: 20vw;
+}
+
+#submit:hover {
+  background-color: #454545;
+  color: #fff;
+}
+
+input {
+  font-family: 'Comfortaa', cursive;
+  font-size: 105%;
+}
+
+input::placeholder {
+  font-family: 'Comfortaa', cursive;
+  font-size: 120%;
+}
+
+form {
+  margin: 2% auto 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 180%;
+  font-weight: 200;
+  margin: 5% 0 2%;
+}
+
+input {
+  margin: 1% auto 0;
+  width: 20vw;
+  height: 10vh;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 0 1%;
+}
+
+input::placeholder {
+  font-family: 'Comfortaa', cursive;
+  font-size: 120%;
+}
+
+input[type="submit"] {
+  margin: 1% 7%;
+  padding: 1% 2%;
+  font-family: 'Comfortaa', cursive;
+  font-size: 110%;
+  font-weight: 400;
+  border: 1px solid #454545;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #454545;
+  cursor: pointer;
+  width: 20vw;
+  height: 9vh;
+}
+
+input[type="submit"]:hover {
+  background-color: #454545;
+  color: #fff;
+}
+
+.create-account{
+  font-size: 100%;
+  margin: 5px auto;
+}
+.create-account a{
+  text-decoration-line: underline;
+}
+/* User info */
+
+.user-page {
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.loading {
+  font-family: 'Comfortaa', cursive;
+  margin: 5% auto;
+  font-size: 150%;
+  font-weight: 400;
+  text-align: center;
+  color: #454545;
+}
+
+.errors {
+  font-family: 'Comfortaa', cursive;
+  margin: 5% auto;
+  font-size: 150%;
+  font-weight: 400;
+  text-align: center;
+  color: #454545;
+}
+
+.profile {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 250%;
+  text-align: center;
+  color: #454545;
+  margin: 2% auto;
+}
+
+.user-info {
+  margin: 5% 1% 1% 5%;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #BFCCB5;
+  color: #454545;
+  border-radius: 10px;
+  border: #454545 0.5px solid;
+  justify-self: center;
+  float: left;
+}
+
+.user-info h3 {
+  font-family: 'Montserrat', cursive;
+  font-size: 200%;
+  font-weight: 400;
+}
+
+.user-info p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 110%;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 2.5;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 50vw;
+  margin: 7% 1% 1% 5%;
+  padding-left: 5%;
+}
+
+.posts-list p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 160%;
+  font-weight: 400;
+  text-align: justify;
+  color: #454545;
+  margin: 2% auto;
+  cursor: pointer;
+}
+
+.create-btn {
+  text-align: center;
+  margin: 5% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 5% auto;
+  padding: 1% 2%;
+  font-family: 'Comfortaa', cursive;
+  font-size: 110%;
+  font-weight: 400;
+  border: 1px solid #454545;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #454545;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #454545;
+  color: #fff;
+}
+
+.delete {
+  margin-right: 2%;
+}
+
+/* #create-btn{
+  width: 10vw;
+  margin: 3% auto;
+} */
+/* update page  */
+.update {
+  margin-left: 2%;
+}
+
+/* Styling help section  */
+.help {
+  margin: 5% 2%;
+
+}
+
+.help h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  font-weight: 400;
+  text-align: center;
+  color: #454545;
+  margin: 2% auto;
+}
+
+.help p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 110%;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 2.5;
+  color: #454545;
+  margin: 2% auto;
+}
+
+/* styling the about page  */
+.about {
+  margin: 5% 2%;
+}
+
+.about h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  font-weight: 400;
+  text-align: center;
+  color: #454545;
+  margin: 2% auto;
+}
+
+.about p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 120%;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 2.5;
+  color: #454545;
+  margin: 4% 5% 5%;
+  line-height: 2.5;
+}
+
+/* Styling contact  */
+.contact {
+  margin: 5% 2%;
+}
+
+.contact h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  font-weight: 400;
+  text-align: center;
+  color: #454545;
+  margin: 2% auto;
+}
+
+.contact p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 170%;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.5;
+  color: #454545;
+  margin: 6%;
+  line-height: 2.5;
+}
+
+/*  Styling the post page */
+.post {
+  margin: 1% 2% 2%;
+  padding: 5% 2.5%;
+  height: 50vh;
+  text-align: center;
+}
+
+.post h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  font-weight: 400;
+  color: #454545;
+  margin: 2% auto;
+}
+
+.post p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 120%;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 2.5;
+  color: #454545;
+  margin: 2% auto;
+}
